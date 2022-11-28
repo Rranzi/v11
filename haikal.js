@@ -2681,8 +2681,6 @@ haikal.sendMessage(m.chat, { document : { url : baby1[0].link}, fileName : baby1
 }
 break
 //=================================================//
-//=================================================//
-/*
 case 'jodohku': {
 if (isBan) throw sticBanLu(from)
 if (!m.isGroup) throw groupon(from)
