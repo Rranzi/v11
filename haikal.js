@@ -2561,6 +2561,14 @@ const ya = gimana[Math.floor(Math.random() * gimana.length)]
 haikal.sendMessage(from, { text: `Pertanyaan : ${q}\nJawaban : ${ya}` }, { quoted: m })
 break
 //=================================================//
+case 'kerjaan':
+if (isBan) throw sticBanLu(from)
+if (!p) return m.reply(`Penggunaan ${command} text\n\nContoh : ${command} ranzz`)
+const gmn = ['Nganggur,Kuli bangunan,Mulung,Pengusaha sukses,Ngemis,Beban keluarga,Pegawai Indomaret,Pemain bokep,Tukang cuci piring,Sultan']
+const ap = gmn[Math.floor(Math.random() * gmn.length)]
+haikal.sendMessage(from, { text: `Pertanyaan : ${p}\nJawaban : ${ap}` }, { quoted: m })
+break
+//=================================================//
 case 'rate':
 if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} text\n\nContoh : ${command} Gambar aku`)
