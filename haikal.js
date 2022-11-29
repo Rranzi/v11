@@ -2711,7 +2711,7 @@ let buttons = [
 ]
 await haikal.sendButtonText(m.chat, buttons, jawab, haikal.user.name, m, {mentions: menst})
 }
-break*/
+break
 //=================================================//
 case 'react': {
  reactionMessage = {
